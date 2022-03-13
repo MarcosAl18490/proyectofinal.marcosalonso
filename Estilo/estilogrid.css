@@ -46,10 +46,6 @@ h2 {
   background-color: rgba(179, 10, 179, 0.534);
 }
 
-body {
-  background-color: rgb(55, 219, 219);
-}
-
 .contenedor {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -73,7 +69,7 @@ body {
   text-align: center;
 }
 
-.contenido {
+main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -91,7 +87,7 @@ body {
 
 .fotitos {
   width: 500px;
-  height: 250px;
+  height: 300px;
   border: solid rebeccapurple;
   opacity: 0.5;
   margin-bottom: 3rem;
@@ -113,9 +109,15 @@ body {
   justify-content: space-evenly;
 }
 .cuartitos {
+  height: 300px;
+  width: 500px;
+  transition: height 1s, width 1s;
+}
+.cuartitos:hover {
   height: 500px;
   width: 800px;
 }
+
 .descripcion {
   background-color: rgba(255, 255, 255, 0.541);
   border: solid rgb(46, 137, 173);
@@ -159,8 +161,14 @@ body {
   background-color: #f8ceec;
   background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
+  background-image: linear-gradient(
+    to top,
+    rgb(223, 167, 65),
+    rgb(214, 80, 80),
+    rgb(233, 115, 135)
+  );
 }
 
 .formulario {
@@ -180,7 +188,11 @@ body {
 }
 
 footer {
-  background-color: rgba(23, 121, 134, 0.884);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(116, 116, 218),
+    rgb(77, 199, 77)
+  );
   padding: 2rem;
   display: grid;
   grid-column: 1fr 1fr;

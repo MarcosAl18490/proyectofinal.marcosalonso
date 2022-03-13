@@ -7,13 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="./Estilo/estilogrid.css">
     <title>Altos de Simic 🏰</title>
 </head>
 <body>
     <div class="contenedor">
     <header class="header">
-        <img class="logo" src="./Imagenes/Logo/Logo.png" alt="logohotel">
+        <img class="logo animate__animated animate__zoomInUp" src="./Imagenes/Logo/Logo.png" alt="logohotel">
         <h1 class="nombrehotel">Altos de Simic</h1>
         <nav class="nav">
             <ul>
@@ -27,22 +29,22 @@
     <main class="contenido">
         
         <div class="finde">
-            <img class="fotitos" src="./Imagenes/Fotos/verano 2022.jpg" alt="finde">
+            <img class="wow fotitos animate__animated animate__backInLeft" src="./Imagenes/Fotos/verano 2022.jpg" alt="finde">
             <h2 class="subtitulo">Verano 2022</h2>
        </div>  
 
        <div class="finde">
-           <img class="fotitos" src="./Imagenes/Fotos/fogon-400x330.jpg" alt="finde">
+           <img class="wow fotitos animate__animated animate__backInRight" src="./Imagenes/Fotos/fogon-400x330.jpg" alt="finde">
            <h2 class="subtitulo">Dia de Campo</h2>
         </div>  
 
        <div class="finde">
-           <img class="fotitos" src="./Imagenes/Fotos/soc2-3-700x330.jpg" alt="finde">
+           <img class="wow fotitos animate__animated animate__backInLeft" src="./Imagenes/Fotos/soc2-3-700x330.jpg" alt="finde">
            <h2 class="subtitulo">Casamientos</h2>
        </div>  
 
        <div class="finde">
-           <img class="fotitos" src="./Imagenes/Fotos/Fin-de-largo-2-600x330.jpg" alt="finde">
+           <img class="wow fotitos animate__animated animate__backInRight" src="./Imagenes/Fotos/Fin-de-largo-2-600x330.jpg" alt="finde">
            <h2 class="subtitulo">Escapada de fin de semana</h2>
        </div>  
     </main>
@@ -64,5 +66,9 @@
                     </ul>
     </footer>
 </div>
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
