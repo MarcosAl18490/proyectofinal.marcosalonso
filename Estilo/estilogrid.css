@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../Imagenes/Fondo/canadian-dollar.png);
+}
+
 .logo {
   filter: brightness(1.1);
   mix-blend-mode: multiply;
@@ -14,6 +22,7 @@
   color: rgb(7, 7, 7);
   grid-area: nombrehotel;
   margin-right: 5rem;
+  margin-bottom: 4rem;
 }
 
 h1 {
@@ -25,27 +34,6 @@ h2 {
   font-size: 3rem;
 }
 
-.nav ul {
-  display: flex;
-  list-style: none;
-  margin-top: 2rem;
-  margin-right: 5rem;
-  flex-direction: row;
-  gap: 5rem;
-  grid-area: nav;
-}
-.nav ul li a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.7rem;
-  border: double 0.2rem;
-  padding: 10px 10px 10px 10px;
-}
-.nav ul li a:hover {
-  color: rgb(17, 2, 9);
-  background-color: rgba(179, 10, 179, 0.534);
-}
-
 .contenedor {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -55,18 +43,6 @@ h2 {
     "contenido contenido"
     "contenido contenido"
     "footer footer";
-}
-
-.contenedor .header {
-  background-image: url(../Imagenes/Fondo/canadian-dollar.png);
-  grid-area: header;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "logo nombrehotel"
-    "logo nav";
-  text-align: center;
 }
 
 main {

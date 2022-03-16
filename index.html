@@ -4,71 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Kalam:wght@300&display=swap" rel="stylesheet">
+
+     <!-- Link Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Link "Animate" -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Link "Mi CSS" -->
     <link rel="stylesheet" href="./Estilo/estilogrid.css">
     <title>Altos de Simic 🏰</title>
 </head>
 <body>
-    <div class="contenedor">
     <header class="header">
+        
         <img class="logo animate__animated animate__zoomInUp" src="./Imagenes/Logo/Logo.png" alt="logohotel">
         <h1 class="nombrehotel">Altos de Simic</h1>
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./Paginas/habitacionesgrid.html">Habitaciones</a></li>
-                <li><a href="./Paginas/spagrid.html">Spa</a></li>
-                <li><a href="./Paginas/contactogrid.html">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-opacity-75 ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Paginas/habitacionesgrid.html">Habitaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./Paginas/spagrid.html">Spa</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Realiza tu reserva</a></li>
+                      <li><a class="dropdown-item" href="./Paginas/contactogrid.html">Dejanos tu opinion</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Sumate a nuestro equipo</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                  <button class="btn btn-outline-success active" type="submit">Busqueda</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+    <div class="contenedor">
     <main class="contenido">
         
         <div class="finde">
             <img class="wow fotitos animate__animated animate__backInLeft" src="./Imagenes/Fotos/verano 2022.jpg" alt="finde">
-            <h2 class="subtitulo">Verano 2022</h2>
+            <h2 class="subtitulo"><strong> Verano 2022</strong></h2>
        </div>  
 
        <div class="finde">
            <img class="wow fotitos animate__animated animate__backInRight" src="./Imagenes/Fotos/fogon-400x330.jpg" alt="finde">
-           <h2 class="subtitulo">Dia de Campo</h2>
+           <h2 class="subtitulo"><strong>Dia de Campo</strong> </h2>
         </div>  
 
        <div class="finde">
            <img class="wow fotitos animate__animated animate__backInLeft" src="./Imagenes/Fotos/soc2-3-700x330.jpg" alt="finde">
-           <h2 class="subtitulo">Casamientos</h2>
+           <h2 class="subtitulo"><strong>Casamientos</strong> </h2>
        </div>  
 
        <div class="finde">
            <img class="wow fotitos animate__animated animate__backInRight" src="./Imagenes/Fotos/Fin-de-largo-2-600x330.jpg" alt="finde">
-           <h2 class="subtitulo">Escapada de fin de semana</h2>
+           <h2 class="subtitulo"><strong>Escapada de fin de semana</strong> </h2>
        </div>  
     </main>
+
+
+
+
     <footer class="footer">
         <div class="contacto"> 
             <h2>CONTACTO</h2>
-                <h3>Numero de telefono 📞 : 1543432323</h3>
-                <h3>Email: www.altossimic.com.ar 📧</h3>
-                <h3>Email empresarial: www.simicrrhh.com.ar 🧥</h3>
+                <h4>Numero de telefono 📞 : 1543432323</h4>
+                <h4>Email: www.altossimic.com.ar 📧</h4>
+                <h4>Email empresarial: www.simicrrhh.com.ar 🧥</h4>
         </div>
     
         <div class="pago">
             <h2>FORMAS DE PAGO</h2>
-                <h3>Tarjetas de credito</h3>
+                <h4>Tarjetas de credito</h4>
                     <ul>
                         <li>Visa</li>
                         <li>Mastercard</li>
                         <li>American Express</li>
                     </ul>
     </footer>
+
+
+
+
 </div>
 <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
+
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
