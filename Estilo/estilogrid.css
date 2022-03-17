@@ -79,7 +79,7 @@ main {
 }
 .contenedorhabitacion {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -87,10 +87,21 @@ main {
   height: 300px;
   width: 500px;
   transition: height 1s, width 1s;
+  opacity: 0.8;
 }
+
 .cuartitos:hover {
-  height: 500px;
-  width: 800px;
+  border: solid black;
+  opacity: 1;
+}
+
+.card-group {
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.card {
+  background-color: rgba(127, 255, 212, 0.719);
 }
 
 .descripcion {
@@ -99,11 +110,12 @@ main {
   height: 300px;
   width: 350px;
   overflow: scroll;
+  margin-top: 2rem;
 }
 
 .contenedorspa {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -116,9 +128,7 @@ main {
   border: solid black;
   opacity: 0.6;
 }
-.fotospa:hover {
-  opacity: 1;
-}
+
 .foto1 {
   margin-bottom: 3rem;
 }
