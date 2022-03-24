@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+  .nombrehotel {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "logof"
+      "contacto"
+      "pago";
+    align-items: center;
+    justify-items: center;
+  }
+
+  .cuartitos {
+    height: 300px;
+    width: 500px;
+  }
+
+  .cuartitos:hover {
+    height: 300px;
+    width: 500px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .fotitos {
+    width: 500px;
+    height: 250px;
+    border: solid rebeccapurple;
+    opacity: 0.5;
+    margin-top: 1rem;
+  }
+  .ImgSpa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .fotospa {
+    margin: 10px 2px 10px 2px;
+  }
+  .video {
+    margin-bottom: 0;
+  }
+}

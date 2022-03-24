@@ -1,0 +1,21 @@
+.footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(207, 245, 119),
+    rgb(233, 175, 17),
+    rgb(158, 12, 43)
+  );
+  border-top: solid black;
+  padding: 2rem;
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  grid-row: 1fr;
+  grid-template-areas: "contacto logof pago";
+  justify-content: space-between;
+}
+
+.logof {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  grid-area: logof;
+}

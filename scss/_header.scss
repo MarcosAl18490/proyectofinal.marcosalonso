@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../Imagenes/Fondo/canadian-dollar.png);
+}
+
+.logo {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+.nombrehotel {
+  color: black;
+  grid-area: nombrehotel;
+  margin-right: 5rem;
+  margin-bottom: 4rem;
+}

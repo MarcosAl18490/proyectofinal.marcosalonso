@@ -1,0 +1,29 @@
+h1 {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 6rem;
+}
+h2 {
+  font-family: "Kalam", cursive;
+  font-size: 3rem;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.4fr 1.8fr 1.8fr 0.3fr;
+  grid-template-areas:
+    "header header"
+    "contenido contenido"
+    "contenido contenido"
+    "footer footer";
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contenido h2 {
+  text-align: center;
+}

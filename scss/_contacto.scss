@@ -1,0 +1,28 @@
+.row {
+  border: solid brown;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 166, 0, 0.815),
+    rgba(90, 27, 172, 0.774),
+    rgba(255, 192, 203, 0.795)
+  );
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(2 * var(--bs-gutter-x));
+  margin-left: calc(2 * var(--bs-gutter-x));
+}
+
+.tc {
+  margin-top: 0.3rem;
+  border: solid black;
+  background-color: rgba(127, 255, 212, 0.705);
+  padding-left: 26rem;
+  padding-right: 27rem;
+}

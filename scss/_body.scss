@@ -1,0 +1,9 @@
+.contenido {
+  grid-area: contenido;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background-color: rgb(65, 85, 78);
+  background-attachment: fixed;
+}
