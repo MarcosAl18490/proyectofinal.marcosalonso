@@ -4,16 +4,14 @@ header {
   justify-content: space-between;
   align-items: center;
   background-image: url(../Imagenes/Fondo/canadian-dollar.png); }
-
-.logo {
-  filter: brightness(1.1);
-  mix-blend-mode: multiply; }
-
-.nombrehotel {
-  color: black;
-  grid-area: nombrehotel;
-  margin-right: 5rem;
-  margin-bottom: 4rem; }
+  header .logo {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply; }
+    header .logo .nombrehotel {
+      color: #000000;
+      grid-area: nombrehotel;
+      margin-right: 5rem;
+      margin-bottom: 4rem; }
 
 .contenido {
   grid-area: contenido;
