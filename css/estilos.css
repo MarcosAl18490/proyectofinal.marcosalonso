@@ -74,7 +74,7 @@ main {
 .th {
   margin-top: 0.3rem;
   border: solid black;
-  background-color: rgba(127, 255, 212, 0.705); }
+  background-color: rgba(32, 230, 164, 0.705); }
 
 .cuartitos {
   height: 300px;
@@ -92,7 +92,7 @@ main {
   width: 100%; }
 
 .card {
-  background-color: rgba(25, 189, 201, 0.719); }
+  background-color: #49d649; }
 
 .contenedorspa {
   display: flex;
@@ -111,7 +111,7 @@ main {
   margin-top: 4rem; }
 
 .fotospa {
-  border: solid black; }
+  border: solid #030303; }
 
 .foto1 {
   margin-bottom: 3rem; }

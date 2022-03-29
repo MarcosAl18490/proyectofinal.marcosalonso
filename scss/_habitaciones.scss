@@ -1,14 +1,19 @@
-.contenedorhabitacion {
+$colorcard: #49d649;
+@mixin flex-column-wrap-space-evenly() {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
+.contenedorhabitacion {
+  @include flex-column-wrap-space-evenly();
+}
+
 .th {
   margin-top: 0.3rem;
   border: solid black;
-  background-color: rgba(127, 255, 212, 0.705);
+  background-color: rgba(32, 230, 164, 0.705);
 }
 
 .cuartitos {
@@ -30,5 +35,5 @@
 }
 
 .card {
-  background-color: rgba(25, 189, 201, 0.719);
+  background-color: $colorcard;
 }
