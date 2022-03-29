@@ -7,11 +7,11 @@ header {
   header .logo {
     filter: brightness(1.1);
     mix-blend-mode: multiply; }
-    header .logo .nombrehotel {
-      color: #000000;
-      grid-area: nombrehotel;
-      margin-right: 5rem;
-      margin-bottom: 4rem; }
+  header .nombrehotel {
+    color: #0e0d0d;
+    grid-area: nombrehotel;
+    margin-right: 5rem;
+    margin-bottom: 4rem; }
 
 .contenido {
   grid-area: contenido;
@@ -92,15 +92,7 @@ main {
   width: 100%; }
 
 .card {
-  background-color: rgba(127, 255, 212, 0.719); }
-
-.descripcion {
-  background-color: rgba(255, 255, 255, 0.541);
-  border: solid #2e89ad;
-  height: 300px;
-  width: 350px;
-  overflow: scroll;
-  margin-top: 2rem; }
+  background-color: rgba(25, 189, 201, 0.719); }
 
 .contenedorspa {
   display: flex;
