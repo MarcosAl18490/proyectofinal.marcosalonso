@@ -1,4 +1,3 @@
-$colorcard: #13d413;
 
 @import "header";
 @import "body";
@@ -9,9 +8,12 @@ $colorcard: #13d413;
 @import "contacto";
 @import "footer";
 @import "media";
+@import "mixin";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+

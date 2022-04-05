@@ -18,8 +18,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #41554e;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-image: url(../Imagenes/Fondo/fondobody.jpg);
+  background-size: cover; }
 
 h1 {
   font-family: "Aref Ruqaa", serif;
@@ -69,12 +70,10 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly; }
+  justify-content: space-between; }
 
 .th {
-  margin-top: 0.3rem;
-  border: solid black;
-  background-color: rgba(32, 230, 164, 0.705); }
+  margin-top: 0.3rem; }
 
 .cuartitos {
   height: 300px;
@@ -92,7 +91,7 @@ main {
   width: 100%; }
 
 .card {
-  background-color: #49d649; }
+  background-color: #41ecd5; }
 
 .contenedorspa {
   display: flex;
@@ -103,9 +102,7 @@ main {
   margin-bottom: 7%; }
 
 .ts {
-  margin-top: 0.3rem;
-  border: solid black;
-  background-color: rgba(127, 255, 212, 0.705); }
+  margin-top: 0.6rem; }
 
 .video {
   margin-top: 4rem; }
@@ -119,7 +116,7 @@ main {
 .row {
   border: solid brown;
   margin-bottom: 3rem;
-  background-image: linear-gradient(to top, rgba(255, 166, 0, 0.815), rgba(90, 27, 172, 0.774), rgba(255, 192, 203, 0.795)); }
+  background-image: linear-gradient(to top, rgba(14, 136, 109, 0.836), rgba(47, 217, 230, 0.829), rgba(82, 228, 94, 0.863)); }
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -132,13 +129,11 @@ main {
 
 .tc {
   margin-top: 0.3rem;
-  border: solid black;
-  background-color: rgba(127, 255, 212, 0.705);
   padding-left: 26rem;
   padding-right: 27rem; }
 
 .footer {
-  background-image: linear-gradient(to bottom, #cff577, #e9af11, #9e0c2b);
+  background-image: linear-gradient(to bottom, #72e9cb, #4ed342, #1b3f05);
   border-top: solid black;
   padding: 2rem;
   display: grid;

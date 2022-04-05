@@ -1,9 +1,9 @@
-$colorcard: #49d649;
+$colorcard: #41ecd5;
 @mixin flex-column-wrap-space-evenly() {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .contenedorhabitacion {
@@ -12,8 +12,7 @@ $colorcard: #49d649;
 
 .th {
   margin-top: 0.3rem;
-  border: solid black;
-  background-color: rgba(32, 230, 164, 0.705);
+  
 }
 
 .cuartitos {
