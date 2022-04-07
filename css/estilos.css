@@ -13,6 +13,10 @@ header {
     margin-right: 5rem;
     margin-bottom: 4rem; }
 
+.dropdown-item:hover {
+  background-color: #083b0ddc;
+  color: white; }
+
 .contenido {
   grid-area: contenido;
   display: flex;
@@ -91,7 +95,7 @@ main {
   width: 100%; }
 
 .card {
-  background-color: #41ecd5; }
+  background-color: #a17625f8; }
 
 .contenedorspa {
   display: flex;
@@ -116,7 +120,7 @@ main {
 .row {
   border: solid brown;
   margin-bottom: 3rem;
-  background-image: linear-gradient(to top, rgba(14, 136, 109, 0.836), rgba(47, 217, 230, 0.829), rgba(82, 228, 94, 0.863)); }
+  background-image: linear-gradient(to top, rgba(14, 136, 109, 0.836), rgba(47, 217, 230, 0.829), rgba(68, 163, 76, 0.863)); }
 
 .row {
   --bs-gutter-x: 1.5rem;

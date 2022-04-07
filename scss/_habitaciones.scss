@@ -1,4 +1,4 @@
-$colorcard: #41ecd5;
+$colorcard: #a17625f8;
 @mixin flex-column-wrap-space-evenly() {
   display: flex;
   flex-direction: column;
@@ -36,3 +36,4 @@ $colorcard: #41ecd5;
 .card {
   background-color: $colorcard;
 }
+
