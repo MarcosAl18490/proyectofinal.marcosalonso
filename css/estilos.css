@@ -207,6 +207,21 @@ main {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
+.errorcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+
+.boton {
+  padding: 1rem 3rem 1rem 3rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
+  margin-top: 1rem; }
+
+.te {
+  font-size: 2rem; }
+
 * {
   margin: 0;
   padding: 0;
