@@ -49,3 +49,16 @@
     
   }
 }
+
+.sobrenosotros{
+  padding: 0.5rem;
+  font-size: 15px;
+}
+
+@media screen and  (min-width: 1800px){
+  .contenido{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+  
