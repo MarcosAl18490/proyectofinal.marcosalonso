@@ -16,13 +16,10 @@
   }
 
   .cuartitos {
-    height: 300px;
-    width: 500px;
-  }
-
-  .cuartitos:hover {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 400px;
+    opacity: 1;
+    border: solid black;
   }
 
   .nav ul {
@@ -30,12 +27,14 @@
     margin-bottom: 3rem;
   }
   .fotitos {
-    width: 500px;
+    width: 450px;
     height: 250px;
-    border: solid rebeccapurple;
-    opacity: 0.5;
+    border: solid black;
+    opacity: 1;
     margin-top: 1rem;
   }
+
+
   .ImgSpa {
     display: flex;
     flex-direction: column;
@@ -48,12 +47,25 @@
     margin-bottom: 0;
     
   }
+
+.errorcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  .fotoerror{
+    width: 30rem;
+    margin-left: 0.5rem;
+  }
 }
 
-.sobrenosotros{
-  padding: 0.5rem;
-  font-size: 15px;
+.sobrenos{
+  background-color: aqua;
 }
+
+}
+
+
 
 @media screen and  (min-width: 1800px){
   .contenido{

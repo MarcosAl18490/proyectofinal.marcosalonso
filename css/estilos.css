@@ -166,19 +166,18 @@ main {
     align-items: center;
     justify-items: center; }
   .cuartitos {
-    height: 300px;
-    width: 500px; }
-  .cuartitos:hover {
-    height: 300px;
-    width: 500px; }
+    height: 250px;
+    width: 400px;
+    opacity: 1;
+    border: solid black; }
   .nav ul {
     flex-direction: column;
     margin-bottom: 3rem; }
   .fotitos {
-    width: 500px;
+    width: 450px;
     height: 250px;
-    border: solid rebeccapurple;
-    opacity: 0.5;
+    border: solid black;
+    opacity: 1;
     margin-top: 1rem; }
   .ImgSpa {
     display: flex;
@@ -187,23 +186,29 @@ main {
   .fotospa {
     margin: 10px 2px 10px 2px; }
   .video {
-    margin-bottom: 0; } }
-
-.sobrenosotros {
-  padding: 0.5rem;
-  font-size: 15px; }
+    margin-bottom: 0; }
+  .errorcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .errorcontainer .fotoerror {
+      width: 30rem;
+      margin-left: 0.5rem; }
+  .sobrenos {
+    background-color: aqua; } }
 
 @media screen and (min-width: 1800px) {
   .contenido {
     display: flex;
     flex-wrap: nowrap; } }
 
-.sobrenosotros {
+.sobrenos {
   background-color: rgba(180, 153, 62, 0.822);
   padding: 3rem;
   margin: 3rem 5rem 5rem 5rem;
   border-radius: 2%; }
-  .sobrenosotros p {
+  .sobrenos p {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
@@ -213,14 +218,12 @@ main {
   justify-content: center;
   text-align: center; }
 
-.boton {
-  padding: 1rem 3rem 1rem 3rem;
-  margin-left: 35rem;
-  margin-right: 35rem;
-  margin-top: 1rem; }
-
 .te {
   font-size: 2rem; }
+
+.fotoerror {
+  width: 70%;
+  margin-left: 11rem; }
 
 * {
   margin: 0;
